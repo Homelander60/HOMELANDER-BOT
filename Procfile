@@ -1,1 +1,1 @@
-web: npm start
+Phoenix: npm start
