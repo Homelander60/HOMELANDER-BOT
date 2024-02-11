@@ -1,7 +1,7 @@
 <p align="center">  
   <a href="https://youtu.be/WcA7GZuaN0A">
     <img alt="Homelander" height="1000" src="https://telegra.ph/file/555cb8ef507cbd2b8b99f.jpg">
-    <h1 align="center">𝙃𝙊𝙈𝙀𝙇𝘼𝙉𝘿𝙀𝙍 2.O</h1>
+    <h1 align="center">𝙃𝙊𝙈𝙀𝙇𝘼𝙉𝘿𝙀𝙍</h1>
   </a>
 </p>
 <p align="center">
