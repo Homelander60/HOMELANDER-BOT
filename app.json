@@ -1,0 +1,66 @@
+{
+  "name": "HOMELANDER",
+   "logo": "https://telegra.ph/file/555cb8ef507cbd2b8b99f.jpg", 
+  "description": " Whatsapp bot.",
+  "keywords": [
+    "whatsapp bot"
+  ],
+  "repository": "https://github.com/Homelander60/HOMELANDER-BOT",
+  "stack": "container",
+  "env": {
+    "SESSION_ID": {
+      "description": "your session id",
+      "required": true,
+      "value": ""
+    },
+    "MODE": {
+      "description": "public or private?",
+      "required": true,
+      "value": "public"
+    },
+    "PREFIX": {
+      "description": "leave it Blank if you want to use multiple prefix",
+      "required": false,
+      "value": ""
+    },
+     "HKEY": {
+      "description": "Put your Heroku api key Here",
+      "required": true,
+      "value": ""
+    },
+     "HAPP": {
+      "description": "Put the Heroku app name",
+      "required": true,
+      "value": ""
+    },
+    "statusview": {
+      "description": "make it true if you want bot to view status",
+      "required": false,
+      "value": ""
+    },
+    "autoRead": {
+      "description": "make it true if you want bot to read messages",
+      "required": false,
+      "value": ""
+    },
+    "antidelete": {
+      "description": "bot will forward deleted messages if you make it true",
+      "required": false,
+      "value": "false"
+    },
+    "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/DuckyTeam/heroku-buildpack-imagemagick.git"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+    }
+  ]
+}
+
